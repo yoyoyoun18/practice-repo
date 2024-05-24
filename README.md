@@ -20,6 +20,8 @@ redux, redux toolkit 실습을 해봤습니다. 실습과 개념 공부를 하�
 
 ---
 
+보통 node 환경에선 fetch, axios를 통해 api 통신을 한다. 이때 axios, fetch를 react query 번들로 감싸주면 보다 효율적인 데이터 관리가 가능하다. 첫번째로 캐싱을 통해 반복되는 데이터에 대한 불필요한 api 콜을 줄여준다. 두번째로는 redux같은 전역 변수등을 관리하는 client 데이터와 server 데이터를 분리해준다. 
+
 #### Tailwind CSS
 
 ---
